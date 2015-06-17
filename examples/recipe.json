@@ -1,0 +1,70 @@
+{
+    "title": "Bitter",
+    "author": "Bob Brewer",
+    "mash": {
+        "start": 0,
+        "finish": 60,
+        "profile": [
+            {
+                "time": 0,
+                "temp (C)": 65,
+                "addition": [
+                    {
+                        "name": "grain.Marris Otter",
+                        "weight (kg)": 6
+                    },
+                    {
+                        "name": "Water",
+                        "volume (l)": 20
+                    }
+                ]
+            },
+            {
+                "time": 40,
+                "temp (C)": 67
+            }
+        ]
+    },
+    "boil": [
+        {
+            "duration": 60,
+            "addition": [
+                {
+                    "name": "hops.Fuggles",
+                    "weight (g)": 50
+                }
+            ]
+        },
+        {
+            "duration": 10,
+            "addition": [
+                {
+                    "name": "hops.Cascade",
+                    "weight (g)": 25
+                }
+            ]
+        }
+    ],
+    "fermentation": {
+        "profile": [
+            {
+                "time": 0,
+                "temp (C)": 18,
+                "addition": [
+                    {
+                        "name": "yeast.WLP002",
+                        "volume (l)": 0.1
+                    }
+                ]
+            },
+            {
+                "name": "cold crash",
+                "duration (day)": 3,
+                "temp (C)": 1
+            }
+        ]
+    },
+    "serve": {
+        "temp (C)": 10
+    }
+}
