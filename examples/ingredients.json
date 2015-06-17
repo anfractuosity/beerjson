@@ -1,0 +1,43 @@
+{
+	"hops" : [
+
+		{
+			"name"	:	"Fuggles",
+			"alpha"	:	4.50,
+			"beta"	:	2.00
+		},
+			
+		{
+			"name"	:	"Cascade",
+			"alpha"	:	5.50,
+			"beta"	:	6.00
+		}
+	],
+
+	"grain" : [
+		
+		{
+			"name"      :	"Pilsner",
+			"diastatic" :	60.0,
+			"srm"       :	1.0
+		},
+		
+		{
+			"name"      :	"Marris Otter",
+			"diastatic" :	120.0,
+			"srm" 	    :	3.0
+		}		
+	],
+
+	"yeast" : [
+		{
+			"name" 		  : 	"WLP002",
+			"lab"		  : 	"White Labs",
+			"min attenuation" : 	63.0,
+			"max attenuation" :     70.0,
+			"min temp (C)"	  :	18.3,
+			"max temp (C)"	  :	20.0
+		}
+	]
+}
+
